@@ -78,7 +78,7 @@ const ProductsPage = () => {
   
   
   const UpdateProduct = id => {
-    window.location = '/update/'+id
+    window.location = `/update/${id}`
   }
 
   const ProductDelete = id => {
